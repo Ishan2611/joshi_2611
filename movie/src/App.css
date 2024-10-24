@@ -1,0 +1,44 @@
+.app {
+  font-family: Arial, sans-serif;
+  background-color: #F4F2DE;
+  color: #333;
+  padding: 20px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-card {
+  border: 1px solid #A1CCD1;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.movie-card h2 {
+  font-size: 1.2em;
+}
+
+.movie-card p {
+  margin: 5px 0;
+}
+
+.movie-card a {
+  text-decoration: none;
+  color: #E9B384;
+}
+
+.movie-detail {
+  border: 1px solid #A1CCD1;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: white;
+  margin: 20px auto;
+  max-width: 400px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

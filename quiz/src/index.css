@@ -1,0 +1,37 @@
+/* index.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f2de;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.quiz-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+
+button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #7c9d96;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #a1ccd1;
+}
+
+.results {
+  text-align: center;
+}
